@@ -270,6 +270,8 @@ Now create a similar script for the topic: "{topic}"
 
 def main():
 
+    print("Starting AI Podcast Generation...")
+
     """Main function to handle command line arguments and run the generator"""
     parser = argparse.ArgumentParser(description="AI Podcast Generator")
     
