@@ -148,7 +148,7 @@ Now create a similar script for the topic: "{topic}"
             print("Raw script content:")
             print(script)
             sys.exit(1)
-        
+        #CHECK: Ensure we have exactly 6 dialogue lines
         if len(dialogue) != 6:
             print(f"❌ Error: Expected exactly 6 dialogue lines, got {len(dialogue)}")
             sys.exit(1)
